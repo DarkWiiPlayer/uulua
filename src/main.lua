@@ -23,3 +23,5 @@ function M.v4_1()
     return tohex(random(15))
   end)
 end
+
+return M
