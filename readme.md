@@ -1,4 +1,4 @@
-UULua
+uuLua
 =========
 
 A small library that implements some UUID generating functions (so far only random UUIDs)
