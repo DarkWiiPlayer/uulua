@@ -5,9 +5,9 @@ source = {
 }
 description = {
 	summary = "Generate UUIDs in plain lua.";
-	detailed = [[
+	detailed = ([[
 		uuLua is a library to generate Universally Unique Identifiers, aka. UUIDs, written in pure lua.
-	]]:gsub("\t", "");
+	]]):gsub("\t", "");
 	homepage = "https://github.com/DarkWiiPlayer/uulua";
 	license = "Unlicense";
 }
