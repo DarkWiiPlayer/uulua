@@ -5,10 +5,16 @@ A small library that implements some UUID generating functions (so far only rand
 
 Give it a try:
   
-	uu = require "uulua"
+	local uu = require "uulua"
 	for i=1,20 do
 		print(uu.random())
 	end
+
+...or in moonscript:
+
+	uu = require "uulua"
+	for i=1,20
+		print uu.random!
 
 Next planned feature:
 date-time and MAC-based (aka. version 1) UUIDs
