@@ -1,9 +1,9 @@
 package = "uulua"
-version = "scm"
+version = "scm-1"
 source = {
-  url = "git@github.com:DarkWiiPlayer/uulua.git";
+  url = "git://github.com/DarkWiiPlayer/uulua";
 }
-description {
+description = {
   summary = "Generate UUIDs in plain lua.";
   detailed = [[
     Generate UUIDs in plain lua.
