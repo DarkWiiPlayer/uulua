@@ -8,7 +8,7 @@ description = {
 	detailed = ([[
 		uuLua is a library to generate Universally Unique Identifiers, aka. UUIDs, written in pure lua.
 	]]):gsub("\t", "");
-	homepage = "https://github.com/DarkWiiPlayer/uulua";
+	homepage = "https://darkwiiplayer.github.io/uulua/";
 	license = "Unlicense";
 }
 dependencies = {
