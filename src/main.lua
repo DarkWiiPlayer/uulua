@@ -1,3 +1,8 @@
+--- A module for creating UUIDs in lua
+-- @module uuLua
+-- @author DarkWiiPlayer (Dennis Fischer)
+-- @license Unlicense
+
 math.randomseed(os.time())
 local random = math.random
 random()
@@ -7,13 +12,13 @@ random()
 local M = {}
 
 --- Converts a number between 0 and 15 to a hex digit
--- Behavior for numbers not between 0 and 15 is not defined!
+-- @param num A number between 0 and 15
+-- @warning Behavior for numbers not between 0 and 15 is not defined!
 local function tohex(num)
   return string.char(("0123456789abcdef"):byte(num+1))
 end
 
---- Generates a version 4 variant 1 UUID
--- does not accept any arguments
+--- Generates a version 4 variant 1 UUID.
 function M.v41()
   local uuid = "xxxxxxxx-xxxx-axxx-bxxx-xxxxxxxxxxxx"
   uuid = uuid:gsub("a", function(a)
@@ -26,8 +31,8 @@ function M.v41()
   return uuid
 end
 
---- Generates a version 4 variant 2 UUID
--- does not accept any arguments
+--- Generates a version 4 variant 2 UUID.
+-- Same as @{v41} but with one less bit.
 function M.v42()
   local uuid = "xxxxxxxx-xxxx-axxx-bxxx-xxxxxxxxxxxx"
   uuid = uuid:gsub("a", function(a)
