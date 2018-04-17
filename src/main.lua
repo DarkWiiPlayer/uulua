@@ -45,6 +45,9 @@ function M.v42()
   return uuid
 end
 
+--- Just an alias for @{v41} with a more user friendly name
+-- @function random
+
 M.random = M.v41
 
 return M
