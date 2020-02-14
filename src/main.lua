@@ -3,12 +3,7 @@
 -- @author DarkWiiPlayer (Dennis Fischer)
 -- @license Unlicense
 
-math.randomseed(os.time())
 local random = math.random
-random()
-random()
-random()
-
 
 local template = "xxxxxxxx-xxxx-axxx-bxxx-xxxxxxxxxxxx"
 
