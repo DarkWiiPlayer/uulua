@@ -14,6 +14,9 @@ local template = "xxxxxxxx-xxxx-axxx-bxxx-xxxxxxxxxxxx"
 
 local M = {}
 
+--- The NIL UUID 00000000-0000-0000-0000-000000000000
+M.null = template:gsub("[xab]", "0")
+
 --- Converts a number between 0 and 15 to a hex digit
 -- @param num A number between 0 and 15
 -- @warning Behavior for numbers not between 0 and 15 is not defined!
