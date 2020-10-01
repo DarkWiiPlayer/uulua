@@ -1,7 +1,8 @@
 uuLua
 =========
 
-A small library that implements some UUID generating functions (so far only random UUIDs)
+A small library that implements some UUID generating functions (so far only
+random UUIDs)
 
 Give it a try:
   
@@ -15,6 +16,9 @@ Give it a try:
 	uu = require "uulua"
 	for i=1,20
 		print uu.random!
+
+uuLua also supports generating [ULIDs](https://github.com/ulid/spec) with the
+`uulua.ulid(time)` function.
 
 Next planned feature:
 date-time and MAC-based (aka. version 1) UUIDs
