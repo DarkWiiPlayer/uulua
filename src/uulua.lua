@@ -76,6 +76,4 @@ end
 
 uulua.random = uulua.v41
 
-print(uulua.ulid())
-
 return uulua
