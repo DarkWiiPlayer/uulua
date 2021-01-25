@@ -10,6 +10,7 @@ description = {
 	]]):gsub("\t", "");
 	homepage = "https://darkwiiplayer.github.io/uulua/";
 	license = "Unlicense";
+	labels = { "uuid", "ulid" };
 }
 dependencies = {
 	"lua >= 5.1";
