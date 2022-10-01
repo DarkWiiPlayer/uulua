@@ -23,7 +23,8 @@ build = {
 	};
 	install = {
 		bin = {
-			uuid = 'bin/uuid'
+			uuid = 'bin/uuid';
+			ulid = 'bin/ulid';
 		}
 	}
 }
