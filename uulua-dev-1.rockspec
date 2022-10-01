@@ -1,3 +1,4 @@
+rockspec_format = "3.0"
 package = "uulua"
 version = "dev-1"
 source = {
@@ -20,4 +21,9 @@ build = {
 	modules = {
 		uulua = "src/uulua.lua"
 	};
+	install = {
+		bin = {
+			uuid = 'bin/uuid'
+		}
+	}
 }
