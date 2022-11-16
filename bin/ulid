@@ -1,5 +1,11 @@
 #!/usr/bin/env lua
 
+math.randomseed(os.time + os.clock())
+
+for i=1,10 do
+	math.random()
+end
+
 local uulua = require 'uulua'
 
 print(uulua.ulid())
