@@ -1,6 +1,6 @@
 rockspec_format = "3.0"
 package = "uulua"
-version = "dev-2"
+version = "dev-3"
 source = {
 	url = "git://github.com/DarkWiiPlayer/uulua";
 }
@@ -15,6 +15,7 @@ description = {
 }
 dependencies = {
 	"lua >= 5.1";
+	"based ~> 0.2";
 }
 build = {
 	type = "builtin";
