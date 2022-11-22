@@ -1,6 +1,6 @@
 rockspec_format = "3.0"
 package = "uulua"
-version = "dev-1"
+version = "dev-2"
 source = {
 	url = "git://github.com/DarkWiiPlayer/uulua";
 }
